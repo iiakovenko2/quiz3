@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>შემაჯამებელი წერა #3</title>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+	<header>
+		<h1>შემაჯამებელი წერა 3</h1>
+	</header>
+	<div id="timer">დარჩენილია 30 წუთი და 60 წამი</div> <!-- Timer display -->
+	<main>
+		<form id="quizForm">
+			<!-- Questions will go here -->
+			<!-- Question 1 -->
+			<div class="question" id="question1"> <strong> (1) 1. </strong> <br> \(A\) არის 35–ის ყველა გამყოფის სიმრავლე, ხოლო \(B\) არის 55–ის ყველა გამყოფის სიმრავლე. იპოვეთ \(A\) და \(B\) სიმრავლეების თანაკვეთის ყველა ელემენტის ჯამი.
+				<div> </div>
+				<div>
+					<input type="radio" name="q1" value="ა" id="q1a"><label for="q1a"> ა) 1
+					</label><br>
+					<input type="radio" name="q1" value="ბ" id="q1b"><label for="q1b"> ბ) 6
+					</label><br>
+					<input type="radio" name="q1" value="გ" id="q1c"><label for="q1c"> გ) 13
+					</label><br>
+					<input type="radio" name="q1" value="დ" id="q1d"><label for="q1d"> დ) 17
+					</label>
+				</div>
+			</div>
+
+			<!-- Question 2 -->
+			<div class="question" id="question2">
+				<strong> (1) 2. </strong> <br>
+				რიცხვითი მიმდევრობის \(n\)-ური წევრი განსაზღვრულია ფორმულით \(a_n=3n^{2}-40n+10\). იპოვეთ ამ მიმდევრობის უმცირესი წევრის ნომერი.
+				<div> </div>
+				<div>
+					<input type="radio" name="q2" value="ა" id="q2a"><label for="q2a"> ა) \(5\) </label><br>
+					<input type="radio" name="q2" value="ბ" id="q2b"><label for="q2b"> ბ) \(6\) </label><br>
+					<input type="radio" name="q2" value="გ" id="q2c"><label for="q2c"> გ) \(7\) </label><br>
+					<input type="radio" name="q2" value="დ" id="q2d"><label for="q2d"> დ) \(8\) </label>
+				</div>
+			</div>
+
+			<!-- Question 3 -->
+			<div class="question" id="question3">
+				<strong> (1) 3. </strong> <br>
+				იპოვეთ უდიდესი მთელი რიცხვი, რომელიც ნაკლებია \( \log_3{17}\)-ზე.
+				<div> </div>
+				<div>
+					<input type="radio" name="q3" value="ა" id="q3a"><label for="q3a"> ა) \(1\)</label><br>
+					<input type="radio" name="q3" value="ბ" id="q3b"><label for="q3b">ბ) \(2\)</label><br>
+					<input type="radio" name="q3" value="გ" id="q3c"><label for="q3c">გ) \(3\)</label><br>
+					<input type="radio" name="q3" value="დ" id="q3d"><label for="q3d">დ) \(4\)</label>
+				</div>
+			</div>
+
+			<!-- Question 4 -->
+			<div class="question" id="question4">
+				<strong> (1) 4. </strong> <br>
+				სურათზე წარმოდგენილია \(a\), \(b\), და \(c\) რიცხვების განლაგება რიცხვით ღერძზე. აგრეთვე ცნობილია, რომ \(A= \frac{1}{a+2} \), \(B= \frac{1}{b-3}\) და \(C= \frac {1}{c+3}\). <br> რიცხვები \(A\), \(B\) და \(C\) დაალაგეთ ზრდადობით. <img class='image', src='https://i.imgur.com/L7jYEQb.png' </img>
+				<div> </div>
+				<div>
+					<input type="radio" name="q4" value="ა" id="q4a"><label for="q4a">ა) \( A, B, C\)</label><br>
+					<input type="radio" name="q4" value="ბ" id="q4b"><label for="q4b">ბ) \( C,A,B\)</label><br>
+					<input type="radio" name="q4" value="გ" id="q4c"><label for="q4c">გ) \( B, C, A\)</label><br>
+					<input type="radio" name="q4" value="დ" id="q4d"><label for="q4d">დ) \( B, A, C \)</label>
+				</div>
+			</div>
+
+			<!-- Question 5 -->
+			<div class="question" id="question5">
+				<strong> (1) 5. </strong> <br>
+				წრეწირის \(BC\) და \(DE\) ქორდების შემცველი წრფეები წრეწირის გარეთ მდებარე \(A\) წერტილში იკვეთება (იხ. სურათი). იპოვეთ \(BC\) მონაკვეთის სიგრძე, თუ \(AB=6\), \(DE=15\), ხოლო \(AD=BC\). <br> <img class='image', src='https://i.imgur.com/quHhWEl.png' </img>
+				<div> </div>
+				<div>
+					<input type="radio" name="q5" value="ა" id="q5a"><label for="q5a">ა) 3</label><br>
+					<input type="radio" name="q5" value="ბ" id="q5b"><label for="q5b">ბ) 4</label><br>
+					<input type="radio" name="q5" value="გ" id="q5c"><label for="q5c">გ) 5</label><br>
+					<input type="radio" name="q5" value="დ" id="q5d"><label for="q5d">დ) 6</label>
+				</div>
+			</div>
+
+			<!-- Question 6 -->
+			<div class="question" id="question6">
+				<strong> (1) 6. </strong> <br>
+				უჯრებიან ფურცელზე, რომლის თითოეული უჯრა 1 ერთეულის ტოლი გვერდის მქონე კვადრატს წარმოადგენს, დახაზულია \(ABC\) სამკუთხედი. სამკუთხედის წვეროები მდებარეობენ უჯრების წვეროებში (იხ.სურათი). სურათზე დაყრდნობით იპოვეთ \(BAC\) კუთხის კოსინუსი. <br> <img class='image', src='https://i.imgur.com/HWB5JNH.png' </img>
+				<div> </div>
+				<div>
+					<input type="radio" name="q6" value="ა" id="q6a"><label for="q6a">ა) \( \frac{\sqrt{3}}{2} \) </label><br>
+					<input type="radio" name="q6" value="ბ" id="q6b"><label for="q6b">ბ) \( \frac{2}{3}\)</label><br>
+					<input type="radio" name="q6" value="გ" id="q6c"><label for="q6c">გ) \( \frac{4}{\sqrt{17}}\) </label><br>
+					<input type="radio" name="q6" value="დ" id="q6d"><label for="q6d">დ) \( \frac{16}{5\sqrt{17}}\) </label>
+				</div>
+			</div>
+
+			<!-- Question 7 -->
+			<div class="question" id="question7">
+				<strong> (1) 7. </strong> <br>
+				რიცხვები 81,78,75,..., \(x\) ადგენს არითმეტიკულ პროგრესიას. იპოვეთ, რამდენი წევრია ამ არითმეტიკულ პროგრესიაში თუ მათი ჯამი 0-ის ტოლია. 
+				<div> </div>
+				<div>
+					<input type="radio" name="q7" value="ა" id="q7a"><label for="q7a">ა) 27</label><br>
+					<input type="radio" name="q7" value="ბ" id="q7b"><label for="q7b">ბ) 55</label><br>
+					<input type="radio" name="q7" value="გ" id="q7c"><label for="q7c">გ) 81</label><br>
+					<input type="radio" name="q7" value="დ" id="q7d"><label for="q7d">დ) 162</label>
+				</div>
+			</div>
+
+			<!-- Question 8 -->
+			<div class="question" id="question8">
+				<strong> (1) 8. </strong> <br>
+				რამდენი ისეთი წერტილი არსებობს საკოორდინატო სიბრტყეზე, რომლის ერთ ერთი კოორდინატი  ეკუთვნის სიმრავლეს {\(1;2;3\)}, ხოლო მეორე კი – სიმრავლეს {\(3;0;4;5;6\)}−?
+				<div> </div>
+				<div>
+					<input type="radio" name="q8" value="ა" id="q8a"><label for="q8a">ა) \( 8 \)</label><br>
+					<input type="radio" name="q8" value="ბ" id="q8b"><label for="q8b">ბ) \( 9 \)</label><br>
+					<input type="radio" name="q8" value="გ" id="q8c"><label for="q8c">გ) \( 20 \)</label><br>
+					<input type="radio" name="q8" value="დ" id="q8d"><label for="q8d">დ) \( 29 \)</label>
+				</div>
+			</div>
+
+			<!-- Question 9 -->
+			<div class="question" id="question9">
+				<strong> (1) 9. </strong> <br>
+				რისი ტოლია \(x\), თუ \( \log_2{(2x)}-\log_2{x^3}=5 \) ?
+				<div> </div>
+				<div>
+					<input type="radio" name="q9" value="ა" id="q9a"><label for="q9a"> ა) \(2\) </label><br>
+					<input type="radio" name="q9" value="ბ" id="q9b"><label for="q9b"> ბ) \( \frac{1}{2} \) </label><br>
+					<input type="radio" name="q9" value="გ" id="q9c"><label for="q9c">გ) \( 4\) </label><br>
+					<input type="radio" name="q9" value="დ" id="q9d"><label for="q9d"> დ) \( \frac{1}{4} \) </label>
+				</div>
+			</div>
+
+			<!-- Question 10 -->
+			<div class="question" id="question10">
+				<strong> (1) 10. </strong> <br>
+				წრეწირში ჩახაზულია მართკუთხედი, ისე როგორც ეს ნახაზზეა ნაჩვენები. იპოვეთ მართკუთხედის დიდი გვერდი თუ მცირე გვერდია 6, ხოლო დიამეტრი 20. <br> <img class="image" src='https://i.imgur.com/aMD2iZH.png' </img>
+				<div> </div>
+				<div>
+					<input type="radio" name="q10" value="ა" id="q10a"><label for="q10a">ა) \(12 \) </label><br>
+					<input type="radio" name="q10" value="ბ" id="q10b"><label for="q10b">ბ) \( 14\)</label><br>
+					<input type="radio" name="q10" value="გ" id="q10c"><label for="q10c">გ) \( 15\)</label><br>
+					<input type="radio" name="q10" value="დ" id="q10d"><label for="q10d">დ) \( 16\)</label>
+				</div>
+			</div>
+
+			<!-- Question 11 -->
+			<div class="question" id="question11">
+				<strong> (1) 11. </strong> <br>
+				მოცემულია \( ABCD \) კვადრატი. იპოვეთ \( BAK \)  კუთხის ტანგენსი, თუ \( BK : KC =1 :3 \) . <br> <img class='image' src="https://i.imgur.com/Q20dXXd.png" </img>
+
+				<div>
+					<input type="radio" name="q11" value="ა" id="q11a"><label for="q11a">ა) \( \frac{1}{4} \)</label><br>
+					<input type="radio" name="q11" value="ბ" id="q11b"><label for="q11b">ბ) \( \frac{1}{3} \)</label><br>
+					<input type="radio" name="q11" value="გ" id="q11c"><label for="q11c">გ) \( \frac{3}{4}\)</label><br>
+					<input type="radio" name="q11" value="დ" id="q11d"><label for="q11d">დ) \( \frac{4}{3}\)</label>
+				</div>
+			</div>
+
+			<!-- Question 12 -->
+			<div class="question" id="question12">
+				<strong> (1) 12. </strong> <br> 
+				არითმეტიკული პროგრესიის 1-ლი, მე-3 და მე-13 წევრები ადგენენ გეომეტრიულ პროგრესიას. <br> იპოვეთ ამ უკანასკნელის მნიშვნელი.
+				<div>
+					<input type="radio" name="q12" value="ა" id="q12a"><label for="q12a">ა) \( \frac{1}{5} \)</label><br>
+					<input type="radio" name="q12" value="ბ" id="q12b"><label for="q12b">ბ) \( 5 \)</label><br>
+					<input type="radio" name="q12" value="გ" id="q12c"><label for="q12c">გ) \( 4 \)</label><br>
+					<input type="radio" name="q12" value="დ" id="q12d"><label for="q12d">დ) \( \sqrt3 \)</label>
+				</div>
+			</div>
+			<!-- Question 13 -->
+			<div class="question" id="question13">
+				<strong> (1) 13. </strong> <br>
+				იპოვეთ უდიდესი <strong> სამნიშნა </strong> რიცხვი, რომლის ჩანაწერი ორობით სისტემაში შეიცავს მხოლოდ ერთიანებს.
+					<div>
+						<input type="radio" name="q13" value="ა" id="q13a"><label for="q13a">ა) \(  255\)</label><br>
+						<input type="radio" name="q13" value="ბ" id="q13b"><label for="q13b">ბ) \( 127 \)</label><br>
+						<input type="radio" name="q13" value="გ" id="q13c"><label for="q13c">გ) \(  511\)</label><br>
+						<input type="radio" name="q13" value="დ" id="q13d"><label for="q13d">დ) \( 1023 \)</label>
+					</div>
+			</div>
+			<!-- Question 14 -->
+			<div class="question" id="question14">
+				<strong> (1) 14. </strong> <br>
+				რა რიცხვი უნდა ჩავსვათ ვარსკვლავის ნაცვლად \(371*27\) ჩანაწერში, რომ მიღებული რიცხვი 3-ზე გაყოფისას ნაშთში გვაძლევდეს \(1\)-ს? 
+				<div>
+					<input type="radio" name="q14" value="ა" id="q14a"><label for="q14a">ა) 2 ან 3 </label><br>
+					<input type="radio" name="q14" value="ბ" id="q14b"><label for="q14b">ბ) 2 ან 8</label><br>
+					<input type="radio" name="q14" value="გ" id="q14c"><label for="q14c">გ) 6 ან 8</label><br>
+					<input type="radio" name="q14" value="დ" id="q14d"><label for="q14d">დ) 2 ან 6</label>
+				</div>
+			</div>
+
+			<!-- Question 15 -->
+			<div class="question" id="question15">
+				<strong> (1) 15. </strong> <br>
+				გამოთვალეთ \( \log\frac{\sqrt{a}}{b^2}\), თუ \( \log(a)=4  \) და \( \log(b)=3 \)
+				<div>
+					<input type="radio" name="q15" value="ა" id="q15a"><label for="q15a">ა) \(-\)4</label><br>
+					<input type="radio" name="q15" value="ბ" id="q15b"><label for="q15b">ბ) \(-2\)</label><br>
+					<input type="radio" name="q15" value="გ" id="q15c"><label for="q15c">გ) \(-1\)</label><br>
+					<input type="radio" name="q15" value="დ" id="q15d"><label for="q15d">დ) \(2\)</label>
+				</div>
+			</div>
+			</div>
+			<button type="button" id="submit-button" onclick="submitQuiz()">შემოწმება</button>
+		</form>
+
+		<div id="result-section" style="display: none;">
+    <div id="result"></div>
+    <div id="result-table"></div>
+</div>
+		</div>
+	</main>
+	<footer>
+
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
